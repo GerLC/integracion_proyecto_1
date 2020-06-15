@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>JOB_PRINCIPAL</name>
+  <name>JOB_PRINCIPAL_PARALELO</name>
   <description/>
   <extended_description/>
   <job_version/>
@@ -1419,8 +1419,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>896</xloc>
-      <yloc>464</yloc>
+      <xloc>832</xloc>
+      <yloc>448</yloc>
       <attributes_kjc/>
     </entry>
   </entries>

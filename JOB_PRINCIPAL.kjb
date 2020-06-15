@@ -1026,7 +1026,7 @@
       <attributes/>
       <connections>
         <connection>
-          <name>China</name>
+          <name>Colombia</name>
           <waitfor>0</waitfor>
           <waittime>millisecond</waittime>
         </connection>
@@ -1064,7 +1064,7 @@
       <attributes/>
       <connections>
         <connection>
-          <name>China</name>
+          <name>Colombia</name>
           <waitfor>0</waitfor>
           <waittime>millisecond</waittime>
         </connection>
@@ -1083,7 +1083,7 @@
       <attributes/>
       <connections>
         <connection>
-          <name>China</name>
+          <name>Colombia</name>
           <waitfor>0</waitfor>
           <waittime>millisecond</waittime>
         </connection>
