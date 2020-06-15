@@ -4,6 +4,7 @@
   <description/>
   <extended_description/>
   <job_version/>
+  <job_status>0</job_status>
   <directory>/</directory>
   <created_user>-</created_user>
   <created_date>2020/06/14 19:36:48.433</created_date>
@@ -635,7 +636,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>80</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -673,7 +674,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>192</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -711,7 +712,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>304</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -749,7 +750,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>416</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -787,7 +788,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>544</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -825,7 +826,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>656</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -863,7 +864,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>768</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -901,7 +902,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>880</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -939,7 +940,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>976</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -977,7 +978,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1072</xloc>
-      <yloc>320</yloc>
+      <yloc>400</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -996,7 +997,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>80</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1015,7 +1016,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>192</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1034,7 +1035,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>304</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1053,7 +1054,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>416</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1072,7 +1073,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>544</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1091,7 +1092,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>656</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1110,7 +1111,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>768</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1129,7 +1130,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>880</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1148,7 +1149,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>976</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1167,7 +1168,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1072</xloc>
-      <yloc>192</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1189,22 +1190,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>0</xloc>
-      <yloc>192</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Mensaje de Error de Conexión</name>
-      <description/>
-      <type>WRITE_TO_LOG</type>
-      <attributes/>
-      <logmessage>ERROR. No se pudo establecer conexión con la BASE DE DATOS.</logmessage>
-      <loglevel>Error</loglevel>
-      <logsubject>ERROR DE CONEXIÓN</logsubject>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>576</xloc>
-      <yloc>48</yloc>
+      <yloc>272</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1215,8 +1201,243 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1168</xloc>
-      <yloc>192</yloc>
+      <xloc>1232</xloc>
+      <yloc>272</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable Colombia</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>COLOMBIA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>416</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable Brazil</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>BRAZIL</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>304</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable Alemania</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>ALEMANIA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>192</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable China</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>CHINA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>80</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable Corea del Sur</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>COREA DEL SUR</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>544</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable España</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>ESPAÑA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>656</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable Italia</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>ITALIA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>768</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable México</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>MÉXICO</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>880</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable UK</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>UK</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>976</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Variable USA</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>USA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1072</xloc>
+      <yloc>160</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Mensaje de Error</name>
+      <description/>
+      <type>WRITE_TO_LOG</type>
+      <attributes/>
+      <logmessage>ERROR. No se pudo establecer la conexión con la base de datos de ${pais}</logmessage>
+      <loglevel>Error</loglevel>
+      <logsubject>Error de conexión con: ${pais}</logsubject>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>576</xloc>
+      <yloc>16</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -1403,96 +1624,6 @@
     </hop>
     <hop>
       <from>Conexión China</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Alemania</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Brazil</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Colombia</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Corea Sur</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión España</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Italia</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión México</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión UK</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión USA</from>
-      <to>Mensaje de Error de Conexión</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión China</from>
       <to>Conexión Alemania</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1514,7 +1645,7 @@
       <to>Conexión Colombia</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
       <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1584,6 +1715,186 @@
     <hop>
       <from>Datos USA</from>
       <to>Success</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión Colombia</from>
+      <to>Variable Colombia</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión China</from>
+      <to>Variable China</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión Alemania</from>
+      <to>Variable Alemania</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión Brazil</from>
+      <to>Variable Brazil</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión Corea Sur</from>
+      <to>Variable Corea del Sur</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión España</from>
+      <to>Variable España</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión Italia</from>
+      <to>Variable Italia</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión México</from>
+      <to>Variable México</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión UK</from>
+      <to>Variable UK</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexión USA</from>
+      <to>Variable USA</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable China</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable Alemania</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable USA</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable Brazil</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable Colombia</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable Corea del Sur</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable España</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable Italia</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable México</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Variable UK</from>
+      <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
