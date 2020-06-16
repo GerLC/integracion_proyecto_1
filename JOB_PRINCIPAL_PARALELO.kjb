@@ -1189,7 +1189,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Corea_Sur</name>
+      <name>Datos Corea del Sur</name>
       <description/>
       <type>JOB</type>
       <attributes/>
@@ -1222,7 +1222,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>864</xloc>
-      <yloc>208</yloc>
+      <yloc>224</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1269,7 +1269,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/alemania.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -1300,13 +1300,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Corea_Sur 2</name>
+      <name>Datos Brazil</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/brazil.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -1337,13 +1337,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Corea_Sur 3</name>
+      <name>Datos Colombia</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/colombia.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -1374,13 +1374,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Corea_Sur 4</name>
+      <name>Datos España</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/espana.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -1411,13 +1411,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Corea_Sur 5</name>
+      <name>Datos Italia</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/italia.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -1448,13 +1448,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Corea_Sur 6</name>
+      <name>Datos UK</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/uk.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -1485,13 +1485,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Corea_Sur 7</name>
+      <name>Datos USA</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/usa.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -1804,7 +1804,7 @@
     </hop>
     <hop>
       <from>Conexión Corea Sur</from>
-      <to>Corea_Sur</to>
+      <to>Datos Corea del Sur</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1831,7 +1831,7 @@
     </hop>
     <hop>
       <from>Conexión Brazil</from>
-      <to>Corea_Sur 2</to>
+      <to>Datos Brazil</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1840,7 +1840,7 @@
     </hop>
     <hop>
       <from>Conexión Colombia</from>
-      <to>Corea_Sur 3</to>
+      <to>Datos Colombia</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1849,7 +1849,7 @@
     </hop>
     <hop>
       <from>Conexión España</from>
-      <to>Corea_Sur 4</to>
+      <to>Datos España</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1858,7 +1858,7 @@
     </hop>
     <hop>
       <from>Conexión Italia</from>
-      <to>Corea_Sur 5</to>
+      <to>Datos Italia</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1867,7 +1867,7 @@
     </hop>
     <hop>
       <from>Conexión UK</from>
-      <to>Corea_Sur 6</to>
+      <to>Datos UK</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1876,7 +1876,7 @@
     </hop>
     <hop>
       <from>Conexión USA</from>
-      <to>Corea_Sur 7</to>
+      <to>Datos USA</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
