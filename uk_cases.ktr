@@ -625,7 +625,7 @@
       <schema_name/>
     </partitioning>
     <connection>UK</connection>
-    <sql>select * from cases</sql>
+    <sql>select * from cases where fk_place between 4000 and 4999</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>

@@ -621,7 +621,7 @@
       <schema_name/>
     </partitioning>
     <connection>USA</connection>
-    <sql>select * from cases</sql>
+    <sql>select * from cases where fk_place between 7000 and 7999</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -635,7 +635,7 @@
         <name>id</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener casos México</origin>
+        <origin>Obtener casos USA</origin>
         <comments>id</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -658,7 +658,7 @@
         <name>date</name>
         <length>-1</length>
         <precision>-1</precision>
-        <origin>Obtener casos México</origin>
+        <origin>Obtener casos USA</origin>
         <comments>date</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -681,7 +681,7 @@
         <name>quantity</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener casos México</origin>
+        <origin>Obtener casos USA</origin>
         <comments>quantity</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -704,7 +704,7 @@
         <name>fk_place</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener casos México</origin>
+        <origin>Obtener casos USA</origin>
         <comments>fk_place</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -727,7 +727,7 @@
         <name>fk_type</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener casos México</origin>
+        <origin>Obtener casos USA</origin>
         <comments>fk_type</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
