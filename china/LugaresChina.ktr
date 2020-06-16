@@ -436,7 +436,7 @@
   <notepads>
   </notepads>
   <connection>
-    <name>ConexionEquipo5</name>
+    <name>China</name>
     <server>devendr4.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
@@ -494,10 +494,106 @@
     </hop>
     <hop>
       <from>Unique rows</from>
-      <to>Insertar lugares China</to>
+      <to>Insert / update</to>
       <enabled>Y</enabled>
     </hop>
   </order>
+  <step>
+    <name>Insert / update</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>China</connection>
+    <commit>100</commit>
+    <update_bypassed>Y</update_bypassed>
+    <lookup>
+      <schema>public</schema>
+      <table>place</table>
+      <key>
+        <name>tipo</name>
+        <field>type</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>name</name>
+        <field>name</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>id</name>
+        <field>id</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>fk_place</name>
+        <field>fk_place</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>type</name>
+        <rename>tipo</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>quantity</name>
+        <rename>quantity</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>date</name>
+        <rename>date</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>name</name>
+        <rename>name</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>id</name>
+        <rename>id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>fk_place</name>
+        <rename>fk_place</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>type</name>
+        <rename>type</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>fk_type</name>
+        <rename>fk_type</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>576</xloc>
+      <yloc>224</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Obtener lugares China</name>
     <type>CsvInput</type>
@@ -623,66 +719,6 @@
     </remotesteps>
     <GUI>
       <xloc>224</xloc>
-      <yloc>224</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Insertar lugares China</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>ConexionEquipo5</connection>
-    <schema>public</schema>
-    <table>place</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>Y</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-      <field>
-        <column_name>id</column_name>
-        <stream_name>id</stream_name>
-      </field>
-      <field>
-        <column_name>name</column_name>
-        <stream_name>name</stream_name>
-      </field>
-      <field>
-        <column_name>type</column_name>
-        <stream_name>type</stream_name>
-      </field>
-      <field>
-        <column_name>fk_place</column_name>
-        <stream_name>fk_place</stream_name>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>640</xloc>
       <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>

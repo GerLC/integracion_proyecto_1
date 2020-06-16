@@ -13,6 +13,108 @@
   <parameters>
     </parameters>
   <connection>
+    <name>Alemania</name>
+    <server>186.93.33.243</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>covid19</database>
+    <port>5432</port>
+    <username>postgres rafael98inginformatica</username>
+    <password>Encrypted 72616661656e87a0c6a60dce9c82a40ba371ca9bacdb</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>5432</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>Brazil</name>
+    <server>grupo2brasil.ddns.net</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>pentaho</database>
+    <port>5432</port>
+    <username>publico</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce218cc1fb8f</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>5432</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
     <name>China</name>
     <server>devendr4.ddns.net</server>
     <type>POSTGRESQL</type>
@@ -167,7 +269,7 @@
   </connection>
   <connection>
     <name>Espana</name>
-    <server>190.36.226.142</server>
+    <server>grupo3.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>etlgrupo3</database>
@@ -767,7 +869,7 @@
       <attributes/>
       <connections>
         <connection>
-          <name>Colombia</name>
+          <name>Alemania</name>
           <waitfor>0</waitfor>
           <waittime>millisecond</waittime>
         </connection>
@@ -786,7 +888,7 @@
       <attributes/>
       <connections>
         <connection>
-          <name>Colombia</name>
+          <name>Brazil</name>
           <waitfor>0</waitfor>
           <waittime>millisecond</waittime>
         </connection>
