@@ -430,7 +430,7 @@
     <created_date>2020/06/15 20:14:11.571</created_date>
     <modified_user>-</modified_user>
     <modified_date>2020/06/15 20:14:11.571</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -620,7 +620,7 @@
       <schema_name/>
     </partitioning>
     <connection>Mexico</connection>
-    <sql>select * from place</sql>
+    <sql>select * from place where id between 6000 and 6999</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -634,7 +634,7 @@
         <name>id</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener lugares México</origin>
+        <origin>Obtener lugares Alemania</origin>
         <comments>id</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -657,7 +657,7 @@
         <name>name</name>
         <length>16383</length>
         <precision>-1</precision>
-        <origin>Obtener lugares México</origin>
+        <origin>Obtener lugares Alemania</origin>
         <comments>name</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -680,7 +680,7 @@
         <name>type</name>
         <length>16383</length>
         <precision>-1</precision>
-        <origin>Obtener lugares México</origin>
+        <origin>Obtener lugares Alemania</origin>
         <comments>type</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -703,7 +703,7 @@
         <name>fk_place</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener lugares México</origin>
+        <origin>Obtener lugares Alemania</origin>
         <comments>fk_place</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>

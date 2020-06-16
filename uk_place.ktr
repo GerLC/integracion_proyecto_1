@@ -624,7 +624,7 @@
       <schema_name/>
     </partitioning>
     <connection>UK</connection>
-    <sql>select * from place</sql>
+    <sql>select * from place where id between 4000 and 4999</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -638,7 +638,7 @@
         <name>id</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input 2</origin>
+        <origin>Obtener lugares UK</origin>
         <comments>id</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -659,9 +659,9 @@
         <type>String</type>
         <storagetype>normal</storagetype>
         <name>name</name>
-        <length>16383</length>
+        <length>100</length>
         <precision>-1</precision>
-        <origin>Table input 2</origin>
+        <origin>Obtener lugares UK</origin>
         <comments>name</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -682,9 +682,9 @@
         <type>String</type>
         <storagetype>normal</storagetype>
         <name>type</name>
-        <length>16383</length>
+        <length>40</length>
         <precision>-1</precision>
-        <origin>Table input 2</origin>
+        <origin>Obtener lugares UK</origin>
         <comments>type</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
@@ -707,7 +707,7 @@
         <name>fk_place</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Table input 2</origin>
+        <origin>Obtener lugares UK</origin>
         <comments>fk_place</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
