@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>corea_sur_cases</name>
+    <name>uk_place</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -427,9 +427,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2020/06/15 13:28:53.423</created_date>
+    <created_date>2020/06/15 20:22:54.719</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2020/06/15 13:28:53.423</modified_date>
+    <modified_date>2020/06/15 20:22:54.719</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -487,14 +487,14 @@
     </attributes>
   </connection>
   <connection>
-    <name>Corea del Sur</name>
-    <server>186.89.175.194</server>
-    <type>POSTGRESQL</type>
+    <name>UK</name>
+    <server>190.123.190.243</server>
+    <type>MYSQL</type>
     <access>Native</access>
     <database>covid19</database>
-    <port>5432</port>
-    <username>public_access</username>
-    <password>Encrypted 2be98afc86aa7f294be1bff228d93acd9</password>
+    <port>3306</port>
+    <username>tdpublico</username>
+    <password>Encrypted 2be98afc86aa7f2e4e118a35898d4a3ca</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -513,7 +513,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
+        <attribute>3306</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -522,6 +522,10 @@
       <attribute>
         <code>QUOTE_ALL_FIELDS</code>
         <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -539,13 +543,13 @@
   </connection>
   <order>
     <hop>
-      <from>Obtener casos Corea del Sur</from>
-      <to>Insertar casos Corea del Sur</to>
+      <from>Obtener lugares UK</from>
+      <to>Insertar lugares UK</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Insertar casos Corea del Sur</name>
+    <name>Insertar lugares UK</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -557,7 +561,7 @@
     </partitioning>
     <connection>China</connection>
     <schema>public</schema>
-    <table>cases</table>
+    <table>place</table>
     <commit>500</commit>
     <truncate>N</truncate>
     <ignore_errors>N</ignore_errors>
@@ -573,6 +577,10 @@
     <return_keys>N</return_keys>
     <return_field/>
     <fields>
+      <field>
+        <column_name>id</column_name>
+        <stream_name>id</stream_name>
+      </field>
       <field>
         <column_name>date</column_name>
         <stream_name>date</stream_name>
@@ -599,13 +607,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>304</xloc>
-      <yloc>96</yloc>
+      <xloc>353</xloc>
+      <yloc>76</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Obtener casos Corea del Sur</name>
+    <name>Obtener lugares UK</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -615,8 +623,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>Corea del Sur</connection>
-    <sql>select * from cases</sql>
+    <connection>UK</connection>
+    <sql>select * from place</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -630,7 +638,7 @@
         <name>id</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener casos Corea del Sur</origin>
+        <origin>Table input 2</origin>
         <comments>id</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
@@ -648,13 +656,13 @@
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>Date</type>
+        <type>String</type>
         <storagetype>normal</storagetype>
-        <name>date</name>
-        <length>-1</length>
+        <name>name</name>
+        <length>16383</length>
         <precision>-1</precision>
-        <origin>Obtener casos Corea del Sur</origin>
-        <comments>date</comments>
+        <origin>Table input 2</origin>
+        <comments>name</comments>
         <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
         <grouping_symbol>,</grouping_symbol>
@@ -671,14 +679,14 @@
         <lenient_string_to_number>N</lenient_string_to_number>
       </value-meta>
       <value-meta>
-        <type>Integer</type>
+        <type>String</type>
         <storagetype>normal</storagetype>
-        <name>quantity</name>
-        <length>9</length>
-        <precision>0</precision>
-        <origin>Obtener casos Corea del Sur</origin>
-        <comments>quantity</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
+        <name>type</name>
+        <length>16383</length>
+        <precision>-1</precision>
+        <origin>Table input 2</origin>
+        <comments>type</comments>
+        <conversion_Mask/>
         <decimal_symbol>.</decimal_symbol>
         <grouping_symbol>,</grouping_symbol>
         <currency_symbol/>
@@ -699,31 +707,8 @@
         <name>fk_place</name>
         <length>9</length>
         <precision>0</precision>
-        <origin>Obtener casos Corea del Sur</origin>
+        <origin>Table input 2</origin>
         <comments>fk_place</comments>
-        <conversion_Mask>####0;-####0</conversion_Mask>
-        <decimal_symbol>.</decimal_symbol>
-        <grouping_symbol>,</grouping_symbol>
-        <currency_symbol/>
-        <trim_type>none</trim_type>
-        <case_insensitive>N</case_insensitive>
-        <collator_disabled>Y</collator_disabled>
-        <collator_strength>0</collator_strength>
-        <sort_descending>N</sort_descending>
-        <output_padding>N</output_padding>
-        <date_format_lenient>N</date_format_lenient>
-        <date_format_locale>en_US</date_format_locale>
-        <date_format_timezone>America/Caracas</date_format_timezone>
-        <lenient_string_to_number>N</lenient_string_to_number>
-      </value-meta>
-      <value-meta>
-        <type>Integer</type>
-        <storagetype>normal</storagetype>
-        <name>fk_type</name>
-        <length>9</length>
-        <precision>0</precision>
-        <origin>Obtener casos Corea del Sur</origin>
-        <comments>fk_type</comments>
         <conversion_Mask>####0;-####0</conversion_Mask>
         <decimal_symbol>.</decimal_symbol>
         <grouping_symbol>,</grouping_symbol>
@@ -749,8 +734,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>128</xloc>
-      <yloc>96</yloc>
+      <xloc>225</xloc>
+      <yloc>76</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

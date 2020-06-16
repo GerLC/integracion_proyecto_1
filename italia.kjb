@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>corea_sur</name>
+  <name>italia</name>
   <description/>
   <extended_description/>
   <job_version/>
   <directory>/</directory>
   <created_user>-</created_user>
-  <created_date>2020/06/15 13:32:47.551</created_date>
+  <created_date>2020/06/15 18:45:26.673</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2020/06/15 13:32:47.551</modified_date>
+  <modified_date>2020/06/15 18:45:26.673</modified_date>
   <parameters>
     </parameters>
   <slaveservers>
@@ -287,13 +287,13 @@
   <shared_objects_file/>
   <entries>
     <entry>
-      <name>Obtener lugares Corea del Sur</name>
+      <name>Obtener lugares Italia</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur_place.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/italia_place.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -320,18 +320,18 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>272</xloc>
-      <yloc>192</yloc>
+      <xloc>429</xloc>
+      <yloc>155</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Obtener casos Corea del Sur</name>
+      <name>Obtener casos Italia</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/corea_sur_cases.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/italia_cases.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -358,8 +358,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>448</xloc>
-      <yloc>192</yloc>
+      <xloc>589</xloc>
+      <yloc>155</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -380,8 +380,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>128</xloc>
-      <yloc>192</yloc>
+      <xloc>269</xloc>
+      <yloc>155</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -392,15 +392,15 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>592</xloc>
-      <yloc>192</yloc>
+      <xloc>765</xloc>
+      <yloc>155</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
   <hops>
     <hop>
       <from>Start</from>
-      <to>Obtener lugares Corea del Sur</to>
+      <to>Obtener lugares Italia</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -408,8 +408,8 @@
       <unconditional>Y</unconditional>
     </hop>
     <hop>
-      <from>Obtener lugares Corea del Sur</from>
-      <to>Obtener casos Corea del Sur</to>
+      <from>Obtener lugares Italia</from>
+      <to>Obtener casos Italia</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -417,7 +417,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Obtener casos Corea del Sur</from>
+      <from>Obtener casos Italia</from>
       <to>Success</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
