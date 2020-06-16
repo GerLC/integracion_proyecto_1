@@ -578,20 +578,16 @@
         <stream_name>id</stream_name>
       </field>
       <field>
-        <column_name>date</column_name>
-        <stream_name>date</stream_name>
+        <column_name>name</column_name>
+        <stream_name>name</stream_name>
       </field>
       <field>
-        <column_name>quantity</column_name>
-        <stream_name>quantity</stream_name>
+        <column_name>type</column_name>
+        <stream_name>type</stream_name>
       </field>
       <field>
         <column_name>fk_place</column_name>
         <stream_name>fk_place</stream_name>
-      </field>
-      <field>
-        <column_name>fk_type</column_name>
-        <stream_name>fk_type</stream_name>
       </field>
     </fields>
     <attributes/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>usa</name>
+    <name>usa_cases</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -575,10 +575,6 @@
     <return_field/>
     <fields>
       <field>
-        <column_name>id</column_name>
-        <stream_name>id</stream_name>
-      </field>
-      <field>
         <column_name>date</column_name>
         <stream_name>date</stream_name>
       </field>
@@ -605,7 +601,7 @@
     </remotesteps>
     <GUI>
       <xloc>416</xloc>
-      <yloc>121</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -755,7 +751,7 @@
     </remotesteps>
     <GUI>
       <xloc>288</xloc>
-      <yloc>121</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
