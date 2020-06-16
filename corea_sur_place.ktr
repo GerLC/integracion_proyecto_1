@@ -617,7 +617,8 @@
       <schema_name/>
     </partitioning>
     <connection>Corea del Sur</connection>
-    <sql>select * from place</sql>
+    <sql>select * from place where id between 1000 and 1999
+</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>

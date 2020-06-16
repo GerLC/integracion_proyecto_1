@@ -837,7 +837,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexión España</name>
+      <name>Conexión Espana</name>
       <description/>
       <type>CHECK_DB_CONNECTIONS</type>
       <attributes/>
@@ -1064,7 +1064,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable España</name>
+      <name>Variable Espana</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1374,7 +1374,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Datos España</name>
+      <name>Datos Espana</name>
       <description/>
       <type>JOB</type>
       <attributes/>
@@ -1587,8 +1587,8 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Conexión España</from>
-      <to>Variable España</to>
+      <from>Conexión Espana</from>
+      <to>Variable Espana</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1686,7 +1686,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable España</from>
+      <from>Variable Espana</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1750,7 +1750,7 @@
     </hop>
     <hop>
       <from>Start</from>
-      <to>Conexión España</to>
+      <to>Conexión Espana</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1848,11 +1848,11 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Conexión España</from>
-      <to>Datos España</to>
+      <from>Conexión Espana</from>
+      <to>Datos Espana</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1870,7 +1870,7 @@
       <to>Datos UK</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -1879,7 +1879,7 @@
       <to>Datos USA</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>

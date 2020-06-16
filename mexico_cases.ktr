@@ -620,7 +620,7 @@
       <schema_name/>
     </partitioning>
     <connection>Mexico</connection>
-    <sql>select * from cases</sql>
+    <sql>select * from cases where fk_place between 8000 and 8999</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>

@@ -616,7 +616,7 @@
       <schema_name/>
     </partitioning>
     <connection>Corea del Sur</connection>
-    <sql>select * from cases</sql>
+    <sql>select * from cases where fk_place between 1000 and 1999</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
