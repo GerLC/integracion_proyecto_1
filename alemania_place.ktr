@@ -489,10 +489,10 @@
   <connection>
     <name>China</name>
     <server>devendr4.ddns.net</server>
-    <type>POSTGRESQL</type>
+    <type>MYSQL</type>
     <access>Native</access>
     <database>covid_grupo_5</database>
-    <port>5432</port>
+    <port>3306</port>
     <username>electiva_5</username>
     <password>Encrypted 2be98afc86aa7f2e4ef56a27d8ad897d2</password>
     <servername/>
@@ -513,7 +513,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
+        <attribute>3306</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -522,6 +522,10 @@
       <attribute>
         <code>QUOTE_ALL_FIELDS</code>
         <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -539,16 +543,76 @@
   </connection>
   <order>
     <hop>
-      <from>Insertar casos Alemania</from>
-      <to>Update</to>
+      <from>Obtener lugares Alemania</from>
+      <to>Insertar lugares Alemania</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Obtener lugares Alemania</from>
-      <to>Insertar casos Alemania</to>
+      <from>Insertar lugares Alemania</from>
+      <to>Update</to>
       <enabled>Y</enabled>
     </hop>
   </order>
+  <step>
+    <name>Insertar lugares Alemania</name>
+    <type>TableOutput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>China</connection>
+    <schema>covid_grupo_5</schema>
+    <table>place</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>N</use_batch>
+    <specify_fields>Y</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+      <field>
+        <column_name>id</column_name>
+        <stream_name>id</stream_name>
+      </field>
+      <field>
+        <column_name>name</column_name>
+        <stream_name>name</stream_name>
+      </field>
+      <field>
+        <column_name>type</column_name>
+        <stream_name>type</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>400</xloc>
+      <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Obtener lugares Alemania</name>
     <type>TableInput</type>
@@ -677,66 +741,6 @@
     </GUI>
   </step>
   <step>
-    <name>Insertar casos Alemania</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>China</connection>
-    <schema>public</schema>
-    <table>place</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>N</use_batch>
-    <specify_fields>Y</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-      <field>
-        <column_name>id</column_name>
-        <stream_name>id</stream_name>
-      </field>
-      <field>
-        <column_name>name</column_name>
-        <stream_name>name</stream_name>
-      </field>
-      <field>
-        <column_name>type</column_name>
-        <stream_name>type</stream_name>
-      </field>
-      <field>
-        <column_name>fk_place</column_name>
-        <stream_name>fk_place</stream_name>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>368</xloc>
-      <yloc>64</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Update</name>
     <type>Update</type>
     <description/>
@@ -750,11 +754,11 @@
     <connection>China</connection>
     <skip_lookup>N</skip_lookup>
     <commit>100</commit>
-    <use_batch>N</use_batch>
+    <use_batch>Y</use_batch>
     <error_ignored>N</error_ignored>
     <ignore_flag_field/>
     <lookup>
-      <schema>public</schema>
+      <schema>covid_grupo_5</schema>
       <table>place</table>
       <key>
         <name>id</name>
@@ -795,7 +799,7 @@
   </step>
   <step_error_handling>
     <error>
-      <source_step>Insertar casos Alemania</source_step>
+      <source_step>Insertar lugares Alemania</source_step>
       <target_step>Update</target_step>
       <is_enabled>Y</is_enabled>
       <nr_valuename/>

@@ -117,10 +117,10 @@
   <connection>
     <name>China</name>
     <server>devendr4.ddns.net</server>
-    <type>POSTGRESQL</type>
+    <type>MYSQL</type>
     <access>Native</access>
     <database>covid_grupo_5</database>
-    <port>5432</port>
+    <port>3306</port>
     <username>electiva_5</username>
     <password>Encrypted 2be98afc86aa7f2e4ef56a27d8ad897d2</password>
     <servername/>
@@ -141,7 +141,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
+        <attribute>3306</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -150,6 +150,10 @@
       <attribute>
         <code>QUOTE_ALL_FIELDS</code>
         <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -533,9 +537,9 @@
   <slaveservers>
     </slaveservers>
   <job-log-table>
-    <connection>China</connection>
-    <schema>public</schema>
-    <table>logs</table>
+    <connection/>
+    <schema/>
+    <table/>
     <size_limit_lines/>
     <interval/>
     <timeout_days/>

@@ -437,6 +437,61 @@
   <notepads>
   </notepads>
   <connection>
+    <name>China</name>
+    <server>devendr4.ddns.net</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>covid_grupo_5</database>
+    <port>3306</port>
+    <username>electiva_5</username>
+    <password>Encrypted 2be98afc86aa7f2e4ef56a27d8ad897d2</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
+  <connection>
     <name>Espana</name>
     <server>grupo3.ddns.net</server>
     <type>POSTGRESQL</type>
@@ -492,10 +547,10 @@
     <server>devendr4.ddns.net</server>
     <type>MYSQL</type>
     <access>Native</access>
-    <database>covid</database>
+    <database>covid_grupo_5</database>
     <port>3306</port>
-    <username>guest</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ff228dc6fa8c</password>
+    <username>electiva_5</username>
+    <password>Encrypted 2be98afc86aa7f2e4ef56a27d8ad897d2</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -548,6 +603,11 @@
       <to>Insertar casos Espana</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Insertar casos Espana</from>
+      <to>Update</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Insertar casos Espana</name>
@@ -561,7 +621,7 @@
       <schema_name/>
     </partitioning>
     <connection>test</connection>
-    <schema/>
+    <schema>covid_grupo_5</schema>
     <table>cases</table>
     <commit>1000</commit>
     <truncate>N</truncate>
@@ -755,6 +815,81 @@
     </remotesteps>
     <GUI>
       <xloc>336</xloc>
+      <yloc>144</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Update</name>
+    <type>Update</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>China</connection>
+    <skip_lookup>N</skip_lookup>
+    <commit>100</commit>
+    <use_batch>Y</use_batch>
+    <error_ignored>N</error_ignored>
+    <ignore_flag_field/>
+    <lookup>
+      <schema>covid_grupo_5</schema>
+      <table>cases</table>
+      <key>
+        <name>date</name>
+        <field>date</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>quantity</name>
+        <field>quantity</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>fk_place</name>
+        <field>fk_place</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>fk_type</name>
+        <field>fk_type</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>date</name>
+        <rename>date</rename>
+      </value>
+      <value>
+        <name>quantity</name>
+        <rename>quantity</rename>
+      </value>
+      <value>
+        <name>fk_place</name>
+        <rename>fk_place</rename>
+      </value>
+      <value>
+        <name>fk_type</name>
+        <rename>fk_type</rename>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>576</xloc>
       <yloc>144</yloc>
       <draw>Y</draw>
     </GUI>

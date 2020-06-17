@@ -438,10 +438,10 @@
   <connection>
     <name>China</name>
     <server>devendr4.ddns.net</server>
-    <type>POSTGRESQL</type>
+    <type>MYSQL</type>
     <access>Native</access>
     <database>covid_grupo_5</database>
-    <port>5432</port>
+    <port>3306</port>
     <username>electiva_5</username>
     <password>Encrypted 2be98afc86aa7f2e4ef56a27d8ad897d2</password>
     <servername/>
@@ -462,7 +462,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
+        <attribute>3306</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -471,6 +471,10 @@
       <attribute>
         <code>QUOTE_ALL_FIELDS</code>
         <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -543,6 +547,11 @@
       <to>Insertar lugares USA</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Insertar lugares USA</from>
+      <to>Update</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Insertar lugares USA</name>
@@ -556,7 +565,7 @@
       <schema_name/>
     </partitioning>
     <connection>China</connection>
-    <schema>public</schema>
+    <schema>covid_grupo_5</schema>
     <table>place</table>
     <commit>1000</commit>
     <truncate>N</truncate>
@@ -728,6 +737,63 @@
     <GUI>
       <xloc>192</xloc>
       <yloc>113</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Update</name>
+    <type>Update</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <connection>China</connection>
+    <skip_lookup>N</skip_lookup>
+    <commit>100</commit>
+    <use_batch>Y</use_batch>
+    <error_ignored>N</error_ignored>
+    <ignore_flag_field/>
+    <lookup>
+      <schema>covid_grupo_5</schema>
+      <table>place</table>
+      <key>
+        <name>id</name>
+        <field>id</field>
+        <condition>=</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>id</name>
+        <rename>id</rename>
+      </value>
+      <value>
+        <name>name</name>
+        <rename>name</rename>
+      </value>
+      <value>
+        <name>type</name>
+        <rename>type</rename>
+      </value>
+      <value>
+        <name>fk_place</name>
+        <rename>fk_place</rename>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>432</xloc>
+      <yloc>112</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
