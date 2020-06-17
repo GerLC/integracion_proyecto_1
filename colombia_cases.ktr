@@ -491,10 +491,10 @@
     <server>190.204.156.57</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>elect_integracion</database>
+    <database>elect_proyecto</database>
     <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4bb16bd64d980aac9</password>
+    <username>elect_user</username>
+    <password>Encrypted 2be98afc86aa7f2e4ae15ab73ca9bb9db</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -573,6 +573,22 @@
     <return_keys>N</return_keys>
     <return_field/>
     <fields>
+      <field>
+        <column_name>date</column_name>
+        <stream_name>date</stream_name>
+      </field>
+      <field>
+        <column_name>quantity</column_name>
+        <stream_name>quantity</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
+      </field>
+      <field>
+        <column_name>fk_type</column_name>
+        <stream_name>fk_type</stream_name>
+      </field>
     </fields>
     <attributes/>
     <cluster_schema/>

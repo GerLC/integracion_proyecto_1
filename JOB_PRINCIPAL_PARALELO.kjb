@@ -68,7 +68,7 @@
     <server>grupo2brasil.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>pentaho</database>
+    <database>electiva</database>
     <port>5432</port>
     <username>publico</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce218cc1fb8f</password>
@@ -170,10 +170,10 @@
     <server>190.204.156.57</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>elect_integracion</database>
+    <database>elect_proyecto</database>
     <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4bb16bd64d980aac9</password>
+    <username>elect_user</username>
+    <password>Encrypted 2be98afc86aa7f2e4ae15ab73ca9bb9db</password>
     <servername/>
     <data_tablespace/>
     <index_tablespace/>
@@ -533,9 +533,9 @@
   <slaveservers>
     </slaveservers>
   <job-log-table>
-    <connection/>
-    <schema/>
-    <table/>
+    <connection>China</connection>
+    <schema>public</schema>
+    <table>logs</table>
     <size_limit_lines/>
     <interval/>
     <timeout_days/>
@@ -611,7 +611,7 @@
     </field>
     <field>
       <id>DEPDATE</id>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <name>DEPDATE</name>
     </field>
     <field>
@@ -1221,7 +1221,7 @@
       <type>WRITE_TO_LOG</type>
       <attributes/>
       <logmessage>ERROR. No se pudo establecer la conexión con la base de datos de ${pais}</logmessage>
-      <loglevel>Error</loglevel>
+      <loglevel>Minimal</loglevel>
       <logsubject>Error de conexión con: ${pais}</logsubject>
       <parallel>N</parallel>
       <draw>Y</draw>

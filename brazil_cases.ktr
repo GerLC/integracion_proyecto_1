@@ -441,7 +441,7 @@
     <server>grupo2brasil.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>pentaho</database>
+    <database>electiva</database>
     <port>5432</port>
     <username>publico</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce218cc1fb8f</password>
@@ -574,6 +574,22 @@
     <return_keys>N</return_keys>
     <return_field/>
     <fields>
+      <field>
+        <column_name>date</column_name>
+        <stream_name>date</stream_name>
+      </field>
+      <field>
+        <column_name>quantity</column_name>
+        <stream_name>quantity</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
+      </field>
+      <field>
+        <column_name>fk_type</column_name>
+        <stream_name>fk_type</stream_name>
+      </field>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -601,7 +617,7 @@
       <schema_name/>
     </partitioning>
     <connection>Brazil</connection>
-    <sql>select * from cases where fk_place between 2000 and 2999</sql>
+    <sql>select * from cases where fk_place between 20000 and 25000</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -742,7 +758,7 @@
   <step_error_handling>
     <error>
       <source_step>Insertar casos Brazil</source_step>
-      <target_step>Update 2</target_step>
+      <target_step/>
       <is_enabled>Y</is_enabled>
       <nr_valuename/>
       <descriptions_valuename/>
