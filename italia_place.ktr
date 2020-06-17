@@ -544,11 +544,6 @@
       <to>Insertar lugares Italia</to>
       <enabled>Y</enabled>
     </hop>
-    <hop>
-      <from>Insertar lugares Italia</from>
-      <to>Update</to>
-      <enabled>Y</enabled>
-    </hop>
   </order>
   <step>
     <name>Insertar lugares Italia</name>
@@ -733,63 +728,6 @@
     </remotesteps>
     <GUI>
       <xloc>160</xloc>
-      <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Update</name>
-    <type>Update</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <connection>China</connection>
-    <skip_lookup>N</skip_lookup>
-    <commit>100</commit>
-    <use_batch>N</use_batch>
-    <error_ignored>N</error_ignored>
-    <ignore_flag_field/>
-    <lookup>
-      <schema>public</schema>
-      <table>place</table>
-      <key>
-        <name>id</name>
-        <field>id</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>id</name>
-        <rename>id</rename>
-      </value>
-      <value>
-        <name>name</name>
-        <rename>name</rename>
-      </value>
-      <value>
-        <name>type</name>
-        <rename>type</rename>
-      </value>
-      <value>
-        <name>fk_place</name>
-        <rename>fk_place</rename>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>400</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>

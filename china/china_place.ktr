@@ -576,7 +576,8 @@
     <single_statement>Y</single_statement>
     <replace_variables>N</replace_variables>
     <quoteString>N</quoteString>
-    <sql>DELETE FROM CASES;</sql>
+    <sql>DELETE FROM CASES;
+DELETE FROM PLACE WHERE id not between 5000 and 5999;</sql>
     <set_params>N</set_params>
     <insert_field/>
     <update_field/>
@@ -594,7 +595,7 @@
     </remotesteps>
     <GUI>
       <xloc>640</xloc>
-      <yloc>352</yloc>
+      <yloc>368</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -662,7 +663,7 @@
     <name>Obtener lugares China</name>
     <type>CsvInput</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
