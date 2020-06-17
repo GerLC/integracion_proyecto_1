@@ -443,7 +443,7 @@
     <access>Native</access>
     <database>covid19</database>
     <port>5432</port>
-    <username>postgres rafael98inginformatica</username>
+    <username>postgres</username>
     <password>Encrypted 72616661656e87a0c6a60dce9c82a40ba371ca9bacdb</password>
     <servername/>
     <data_tablespace/>
@@ -541,13 +541,13 @@
   <order>
     <hop>
       <from>Obtener casos Alemania</from>
-      <to>Insert / update</to>
+      <to>Insertar casos Alemania</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Insert / update</name>
-    <type>InsertUpdate</type>
+    <name>Insertar casos Alemania</name>
+    <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -557,12 +557,40 @@
       <schema_name/>
     </partitioning>
     <connection>China</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema>public</schema>
-      <table>cases</table>
-    </lookup>
+    <schema>public</schema>
+    <table>cases</table>
+    <commit>1000</commit>
+    <truncate>N</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>Y</use_batch>
+    <specify_fields>Y</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+      <field>
+        <column_name>date</column_name>
+        <stream_name>date</stream_name>
+      </field>
+      <field>
+        <column_name>quantity</column_name>
+        <stream_name>quantity</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
+      </field>
+      <field>
+        <column_name>fk_type</column_name>
+        <stream_name>fk_type</stream_name>
+      </field>
+    </fields>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -728,6 +756,18 @@
     </GUI>
   </step>
   <step_error_handling>
+    <error>
+      <source_step>Insertar casos Alemania</source_step>
+      <target_step>Update</target_step>
+      <is_enabled>Y</is_enabled>
+      <nr_valuename/>
+      <descriptions_valuename/>
+      <fields_valuename/>
+      <codes_valuename/>
+      <max_errors/>
+      <max_pct_errors/>
+      <min_pct_rows/>
+    </error>
   </step_error_handling>
   <slave-step-copy-partition-distribution>
   </slave-step-copy-partition-distribution>

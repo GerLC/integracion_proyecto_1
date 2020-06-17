@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
-  <name>JobPrincipal</name>
+  <name>china</name>
   <description/>
   <extended_description/>
   <job_version/>
+  <job_status>0</job_status>
   <directory>/</directory>
   <created_user>-</created_user>
   <created_date>2020/06/15 13:41:46.695</created_date>
@@ -316,7 +317,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>928</xloc>
+      <xloc>864</xloc>
       <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
@@ -327,7 +328,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/LugaresChina.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/china_place.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -365,7 +366,7 @@
       <attributes/>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/CasesChina.ktr</filename>
+      <filename>${Internal.Entry.Current.Directory}/china_cases.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -392,7 +393,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>736</xloc>
+      <xloc>672</xloc>
       <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
