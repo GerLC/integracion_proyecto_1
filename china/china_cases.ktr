@@ -499,7 +499,7 @@
     </hop>
     <hop>
       <from>Insertar casos China</from>
-      <to>Dummy (do nothing)</to>
+      <to>Ignorar error</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -645,15 +645,15 @@
       </field>
       <field>
         <name>date</name>
-        <type>Date</type>
-        <format>MM/dd/yyyy</format>
+        <type>String</type>
+        <format/>
         <currency>$</currency>
         <decimal>.</decimal>
         <group>,</group>
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>-1</length>
+        <length>9</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -668,7 +668,7 @@
         <nullif>-</nullif>
         <ifnull/>
         <position>-1</position>
-        <length>5</length>
+        <length>20</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
         <repeat>N</repeat>
@@ -774,7 +774,7 @@
     </GUI>
   </step>
   <step>
-    <name>Dummy (do nothing)</name>
+    <name>Ignorar error</name>
     <type>Dummy</type>
     <description/>
     <distribute>Y</distribute>
@@ -793,7 +793,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>672</xloc>
+      <xloc>640</xloc>
       <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
@@ -801,7 +801,7 @@
   <step_error_handling>
     <error>
       <source_step>Insertar casos China</source_step>
-      <target_step>Dummy (do nothing)</target_step>
+      <target_step>Ignorar error</target_step>
       <is_enabled>Y</is_enabled>
       <nr_valuename/>
       <descriptions_valuename/>
