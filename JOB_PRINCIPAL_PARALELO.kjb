@@ -68,7 +68,7 @@
     <server>grupo2brasil.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>electiva</database>
+    <database>pentaho</database>
     <port>5432</port>
     <username>publico</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce218cc1fb8f</password>
@@ -273,11 +273,11 @@
   </connection>
   <connection>
     <name>Espana</name>
-    <server>grupo3.ddns.net</server>
+    <server>190.36.226.142</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>etlgrupo3</database>
-    <port>63333</port>
+    <port>5432</port>
     <username>grupo3</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79a962cb82a089</password>
     <servername/>
@@ -298,7 +298,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>63333</attribute>
+        <attribute>5432</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -741,9 +741,9 @@
     </field>
   </jobentry-log-table>
   <channel-log-table>
-    <connection/>
-    <schema/>
-    <table/>
+    <connection>China</connection>
+    <schema>covid_grupo_5</schema>
+    <table>logging</table>
     <timeout_days/>
     <field>
       <id>ID_BATCH</id>
