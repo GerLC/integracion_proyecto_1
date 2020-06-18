@@ -749,12 +749,12 @@
     </partitioning>
     <connection>China</connection>
     <skip_lookup>N</skip_lookup>
-    <commit>1000</commit>
+    <commit>100</commit>
     <use_batch>Y</use_batch>
     <error_ignored>N</error_ignored>
     <ignore_flag_field/>
     <lookup>
-      <schema>covid_grupo_5</schema>
+      <schema/>
       <table>place</table>
       <key>
         <name>id</name>
@@ -763,20 +763,20 @@
         <name2/>
       </key>
       <value>
-        <name>id</name>
-        <rename>id</rename>
-      </value>
-      <value>
         <name>name</name>
         <rename>name</rename>
+      </value>
+      <value>
+        <name>type</name>
+        <rename>type</rename>
       </value>
       <value>
         <name>fk_place</name>
         <rename>fk_place</rename>
       </value>
       <value>
-        <name>type</name>
-        <rename>type</rename>
+        <name>id</name>
+        <rename>id</rename>
       </value>
     </lookup>
     <attributes/>

@@ -13,108 +13,6 @@
   <parameters>
     </parameters>
   <connection>
-    <name>Alemania</name>
-    <server>germanydata.ddns.net</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>covid19</database>
-    <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 72616661656e87a0c6a60dce9c82a40ba371ca9bacdb</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>Brazil</name>
-    <server>grupo2brasil.ddns.net</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>electiva</database>
-    <port>5432</port>
-    <username>publico</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce218cc1fb8f</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
     <name>China</name>
     <server>devendr4.ddns.net</server>
     <type>MYSQL</type>
@@ -154,371 +52,6 @@
       <attribute>
         <code>STREAM_RESULTS</code>
         <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>Colombia</name>
-    <server>190.204.156.57</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>elect_proyecto</database>
-    <port>5432</port>
-    <username>elect_user</username>
-    <password>Encrypted 2be98afc86aa7f2e4ae15ab73ca9bb9db</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>Corea del Sur</name>
-    <server>186.89.175.194</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>covid19</database>
-    <port>5432</port>
-    <username>public_access</username>
-    <password>Encrypted 2be98afc86aa7f294be1bff228d93acd9</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>Espana</name>
-    <server>grupo3.ddns.net</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>etlgrupo3</database>
-    <port>63333</port>
-    <username>grupo3</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79a962cb82a089</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>63333</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>Italia</name>
-    <server>alesshita.ddns.net</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>ElectivaIntegracion</database>
-    <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ff228dc6fa8c</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>Mexico</name>
-    <server>integracion.ddns.net</server>
-    <type>MYSQL</type>
-    <access>Native</access>
-    <database>idd_proyecto</database>
-    <port>3306</port>
-    <username>idd_user</username>
-    <password>Encrypted 2be98afc803c396bbbb18bd63c99dbdde</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>3306</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>STREAM_RESULTS</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>UK</name>
-    <server>190.123.190.243</server>
-    <type>MYSQL</type>
-    <access>Native</access>
-    <database>covid19</database>
-    <port>3306</port>
-    <username>tdpublico</username>
-    <password>Encrypted 2be98afc86aa7f2e4e118a35898d4a3ca</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>3306</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>STREAM_RESULTS</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>USE_POOLING</code>
-        <attribute>N</attribute>
-      </attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>USA</name>
-    <server>jafernandezr15.ddns.net</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>covidata</database>
-    <port>5432</port>
-    <username>public_user</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce108fc0fc8e</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>IS_CLUSTERED</code>
-        <attribute>N</attribute>
-      </attribute>
-      <attribute>
-        <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
-      </attribute>
-      <attribute>
-        <code>PRESERVE_RESERVED_WORD_CASE</code>
-        <attribute>Y</attribute>
-      </attribute>
-      <attribute>
-        <code>QUOTE_ALL_FIELDS</code>
-        <attribute>N</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -741,9 +274,9 @@
     </field>
   </jobentry-log-table>
   <channel-log-table>
-    <connection>China</connection>
-    <schema>covid_grupo_5</schema>
-    <table>logging</table>
+    <connection/>
+    <schema/>
+    <table/>
     <timeout_days/>
     <field>
       <id>ID_BATCH</id>
@@ -824,245 +357,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>160</xloc>
+      <xloc>304</xloc>
       <yloc>16</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión Alemania</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>Alemania</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>192</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión Brazil</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>Brazil</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>416</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión Colombia</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>Colombia</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>624</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión Corea Sur</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>Corea del Sur</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>832</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión Espana</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>Espana</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1040</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión Italia</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>Italia</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1216</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión México</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>Mexico</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1408</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión UK</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>UK</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1600</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Conexión USA</name>
-      <description/>
-      <type>CHECK_DB_CONNECTIONS</type>
-      <attributes/>
-      <connections>
-        <connection>
-          <name>USA</name>
-          <waitfor>0</waitfor>
-          <waittime>millisecond</waittime>
-        </connection>
-      </connections>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1792</xloc>
-      <yloc>96</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion Colombia</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>COLOMBIA</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>560</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion Brazil</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>BRAZIL</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>352</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion Alemania</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>ALEMANIA</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>128</xloc>
-      <yloc>208</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1083,165 +379,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>0</xloc>
-      <yloc>272</yloc>
+      <xloc>304</xloc>
+      <yloc>144</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Fallo Conexion Corea</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>COREA DEL SUR</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>784</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion Espana</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>ESPAÑA</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>976</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion Italia</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>ITALIA</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1168</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion Mexico</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>MÉXICO</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1360</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion UK</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>UK</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1568</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Fallo Conexion USA</name>
-      <description/>
-      <type>SET_VARIABLES</type>
-      <attributes/>
-      <replacevars>Y</replacevars>
-      <filename/>
-      <file_variable_type>JVM</file_variable_type>
-      <fields>
-        <field>
-          <variable_name>pais</variable_name>
-          <variable_value>USA</variable_value>
-          <variable_type>JVM</variable_type>
-        </field>
-      </fields>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>1760</xloc>
-      <yloc>208</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Mensaje de Error</name>
-      <description/>
-      <type>WRITE_TO_LOG</type>
-      <attributes/>
-      <logmessage>
-------------------------------------------------------------------------
-
-ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
-
-
-------------------------------------------------------------------------</logmessage>
-      <loglevel>Basic</loglevel>
-      <logsubject>Error de conexión con: ${pais}</logsubject>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>832</xloc>
-      <yloc>432</yloc>
-      <attributes_kjc/>
-    </entry>
-    <entry>
-      <name>Datos Corea</name>
+      <name>Datos Corea del Sur</name>
       <description/>
       <type>JOB</type>
       <attributes/>
@@ -1273,8 +416,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>880</xloc>
-      <yloc>208</yloc>
+      <xloc>784</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1310,8 +453,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1472</xloc>
-      <yloc>208</yloc>
+      <xloc>992</xloc>
+      <yloc>128</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1347,8 +490,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>240</xloc>
-      <yloc>208</yloc>
+      <xloc>576</xloc>
+      <yloc>128</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1384,8 +527,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>448</xloc>
-      <yloc>208</yloc>
+      <xloc>640</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1421,8 +564,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>672</xloc>
-      <yloc>208</yloc>
+      <xloc>720</xloc>
+      <yloc>128</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1458,8 +601,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1072</xloc>
-      <yloc>208</yloc>
+      <xloc>864</xloc>
+      <yloc>128</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1495,8 +638,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1264</xloc>
-      <yloc>208</yloc>
+      <xloc>944</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1532,8 +675,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1648</xloc>
-      <yloc>208</yloc>
+      <xloc>1072</xloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1569,8 +712,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1840</xloc>
-      <yloc>208</yloc>
+      <xloc>1120</xloc>
+      <yloc>128</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1606,8 +749,8 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>Y</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>928</xloc>
-      <yloc>16</yloc>
+      <xloc>864</xloc>
+      <yloc>32</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1633,7 +776,7 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Log de conexiones</name>
+      <name>Transformation</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
@@ -1666,21 +809,34 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>832</xloc>
-      <yloc>544</yloc>
+      <xloc>864</xloc>
+      <yloc>304</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion Exitosa China </name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>CHINA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>400</xloc>
+      <yloc>64</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
   <hops>
-    <hop>
-      <from>Conexión Colombia</from>
-      <to>Fallo Conexion Colombia</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
     <hop>
       <from>Conexión China</from>
       <to>Fallo Conexion China</to>
@@ -1688,312 +844,6 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Alemania</from>
-      <to>Fallo Conexion Alemania</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Brazil</from>
-      <to>Fallo Conexion Brazil</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Corea Sur</from>
-      <to>Fallo Conexion Corea</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Espana</from>
-      <to>Fallo Conexion Espana</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Italia</from>
-      <to>Fallo Conexion Italia</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión México</from>
-      <to>Fallo Conexion Mexico</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión UK</from>
-      <to>Fallo Conexion UK</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión USA</from>
-      <to>Fallo Conexion USA</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>N</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion Alemania</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion China</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion USA</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion Brazil</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion Colombia</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion Corea</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion Espana</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion Italia</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion Mexico</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Fallo Conexion UK</from>
-      <to>Mensaje de Error</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Corea Sur</from>
-      <to>Datos Corea</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión México</from>
-      <to>Datos México</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Alemania</from>
-      <to>Datos Alemania</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Brazil</from>
-      <to>Datos Brazil</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Colombia</from>
-      <to>Datos Colombia</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Espana</from>
-      <to>Datos Espana</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Italia</from>
-      <to>Datos Italia</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión UK</from>
-      <to>Datos UK</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión USA</from>
-      <to>Datos USA</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>China</from>
-      <to>Conexión Alemania</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>China</from>
-      <to>Conexión Brazil</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>China</from>
-      <to>Conexión Colombia</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>China</from>
-      <to>Conexión Corea Sur</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>China</from>
-      <to>Conexión Espana</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>China</from>
-      <to>Conexión Italia</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>China</from>
-      <to>Conexión México</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
     <hop>
@@ -2016,7 +866,7 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
     </hop>
     <hop>
       <from>China</from>
-      <to>Conexión UK</to>
+      <to>Conexion Exitosa China </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2025,7 +875,88 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
     </hop>
     <hop>
       <from>China</from>
-      <to>Conexión USA</to>
+      <to>Datos Corea del Sur</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos Colombia</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos USA</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos UK</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos Espana</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos Italia</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos México</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos Brazil</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Datos Alemania</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Espana</from>
+      <to>Transformation</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2033,8 +964,71 @@ ERROR. No se pudo establecer la conexión con la base de datos de ${pais}
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Mensaje de Error</from>
-      <to>Log de conexiones</to>
+      <from>Datos Corea del Sur</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Colombia</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Brazil</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Alemania</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Italia</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos México</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos UK</from>
+      <to>Transformation</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos USA</from>
+      <to>Transformation</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
