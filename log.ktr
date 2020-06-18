@@ -509,7 +509,7 @@
       <schema_name/>
     </partitioning>
     <connection>China</connection>
-    <sql>SELECT object_name FROM covid_grupo_5.logging WHERE object_name LIKE 'Conexion%' or object_name LIKE 'Fallo%'</sql>
+    <sql>SELECT object_name FROM covid_grupo_5.logging WHERE object_name LIKE 'Conexion Ex%' or object_name LIKE 'Fallo C%';</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>

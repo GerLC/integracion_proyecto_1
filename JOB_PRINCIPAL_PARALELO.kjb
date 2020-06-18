@@ -1665,7 +1665,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion China Exitosa</name>
+      <name>Conexion Exitosa China </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1687,7 +1687,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name> Conexion Alemania Exitosa</name>
+      <name> Conexion Exitosa Alemania </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1704,12 +1704,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>320</xloc>
-      <yloc>432</yloc>
+      <xloc>304</xloc>
+      <yloc>384</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion Brazil Exitosa</name>
+      <name>Conexion Exitosa Brazil </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1726,12 +1726,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>432</xloc>
-      <yloc>496</yloc>
+      <xloc>448</xloc>
+      <yloc>432</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion Colombia Exitosa</name>
+      <name>Conexion Exitosa Colombia </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1748,12 +1748,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>616</xloc>
-      <yloc>565</yloc>
+      <xloc>624</xloc>
+      <yloc>464</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion Corea del Sur Exitosa</name>
+      <name>Conexion Exitosa Corea del Sur </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1770,12 +1770,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>960</xloc>
-      <yloc>560</yloc>
+      <xloc>944</xloc>
+      <yloc>512</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion Espana Exitosa</name>
+      <name>Conexion Exitosa Espana </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1792,12 +1792,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1088</xloc>
-      <yloc>528</yloc>
+      <xloc>1072</xloc>
+      <yloc>480</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion Italia Exitosa</name>
+      <name>Conexion Exitosa Italia </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1814,12 +1814,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1216</xloc>
-      <yloc>464</yloc>
+      <xloc>1232</xloc>
+      <yloc>368</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion Mexico Exitosa</name>
+      <name>Conexion Exitosa Mexico </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1836,12 +1836,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1344</xloc>
-      <yloc>416</yloc>
+      <xloc>1392</xloc>
+      <yloc>320</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name> Conexion UK Exitosa</name>
+      <name> Conexion Exitosa UK </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1858,12 +1858,12 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1499</xloc>
-      <yloc>471</yloc>
+      <xloc>1536</xloc>
+      <yloc>320</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Conexion USA Exitosa</name>
+      <name>Conexion Exitosa USA </name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1880,8 +1880,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1632</xloc>
-      <yloc>416</yloc>
+      <xloc>1696</xloc>
+      <yloc>304</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -2257,7 +2257,7 @@
     </hop>
     <hop>
       <from>China</from>
-      <to>Conexion China Exitosa</to>
+      <to>Conexion Exitosa China </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2265,7 +2265,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Conexion China Exitosa</from>
+      <from>Conexion Exitosa China </from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -2275,16 +2275,7 @@
     </hop>
     <hop>
       <from>Datos Alemania</from>
-      <to> Conexion Alemania Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from> Conexion Alemania Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to> Conexion Exitosa Alemania </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2293,16 +2284,7 @@
     </hop>
     <hop>
       <from>Datos Brazil</from>
-      <to>Conexion Brazil Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexion Brazil Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to>Conexion Exitosa Brazil </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2311,16 +2293,7 @@
     </hop>
     <hop>
       <from>Datos Colombia</from>
-      <to>Conexion Colombia Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexion Colombia Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to>Conexion Exitosa Colombia </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2329,16 +2302,7 @@
     </hop>
     <hop>
       <from>Datos Corea del Sur</from>
-      <to>Conexion Corea del Sur Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexion Corea del Sur Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to>Conexion Exitosa Corea del Sur </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2347,16 +2311,7 @@
     </hop>
     <hop>
       <from>Datos Espana</from>
-      <to>Conexion Espana Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexion Espana Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to>Conexion Exitosa Espana </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2365,16 +2320,7 @@
     </hop>
     <hop>
       <from>Datos Italia</from>
-      <to>Conexion Italia Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexion Italia Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to>Conexion Exitosa Italia </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2383,16 +2329,7 @@
     </hop>
     <hop>
       <from>Datos México</from>
-      <to>Conexion Mexico Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexion Mexico Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to>Conexion Exitosa Mexico </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2401,16 +2338,7 @@
     </hop>
     <hop>
       <from>Datos UK</from>
-      <to> Conexion UK Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from> Conexion UK Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to> Conexion Exitosa UK </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -2419,16 +2347,7 @@
     </hop>
     <hop>
       <from>Datos USA</from>
-      <to>Conexion USA Exitosa</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexion USA Exitosa</from>
-      <to>Mensaje de Error</to>
+      <to>Conexion Exitosa USA </to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
