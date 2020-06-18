@@ -438,7 +438,7 @@
   </notepads>
   <connection>
     <name>Alemania</name>
-    <server>186.93.33.243</server>
+    <server>germanydata.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>covid19</database>
