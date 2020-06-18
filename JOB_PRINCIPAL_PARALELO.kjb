@@ -14,7 +14,7 @@
     </parameters>
   <connection>
     <name>Alemania</name>
-    <server>186.93.33.243</server>
+    <server>germanydata.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>covid19</database>
@@ -1626,28 +1626,6 @@
       <yloc>16</yloc>
       <attributes_kjc/>
     </entry>
-    <entry>
-      <name>Dummy</name>
-      <description/>
-      <type>SPECIAL</type>
-      <attributes/>
-      <start>N</start>
-      <dummy>Y</dummy>
-      <repeat>N</repeat>
-      <schedulerType>0</schedulerType>
-      <intervalSeconds>0</intervalSeconds>
-      <intervalMinutes>60</intervalMinutes>
-      <hour>12</hour>
-      <minutes>0</minutes>
-      <weekDay>1</weekDay>
-      <DayOfMonth>1</DayOfMonth>
-      <parallel>N</parallel>
-      <draw>Y</draw>
-      <nr>0</nr>
-      <xloc>512</xloc>
-      <yloc>160</yloc>
-      <attributes_kjc/>
-    </entry>
   </entries>
   <hops>
     <hop>
@@ -1862,7 +1840,7 @@
       <to>Datos Brazil</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>N</enabled>
+      <enabled>Y</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -2004,15 +1982,6 @@
     <hop>
       <from>China</from>
       <to>Conexión USA</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
-      <from>Conexión Brazil</from>
-      <to>Dummy</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
