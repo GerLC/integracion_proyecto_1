@@ -591,12 +591,12 @@
         <stream_name>quantity</stream_name>
       </field>
       <field>
-        <column_name>fk_place</column_name>
-        <stream_name>fk_place</stream_name>
-      </field>
-      <field>
         <column_name>fk_type</column_name>
         <stream_name>fk_type</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
       </field>
     </fields>
     <attributes/>
@@ -609,7 +609,7 @@
     </remotesteps>
     <GUI>
       <xloc>336</xloc>
-      <yloc>96</yloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -758,8 +758,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>128</xloc>
-      <yloc>96</yloc>
+      <xloc>160</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -834,7 +834,7 @@
     </remotesteps>
     <GUI>
       <xloc>480</xloc>
-      <yloc>96</yloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

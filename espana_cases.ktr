@@ -647,12 +647,12 @@
         <stream_name>quantity</stream_name>
       </field>
       <field>
-        <column_name>fk_place</column_name>
-        <stream_name>fk_place</stream_name>
-      </field>
-      <field>
         <column_name>fk_type</column_name>
         <stream_name>fk_type</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
       </field>
     </fields>
     <attributes/>

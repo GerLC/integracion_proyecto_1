@@ -490,10 +490,10 @@
   <connection>
     <name>China</name>
     <server>devendr4.ddns.net</server>
-    <type>POSTGRESQL</type>
+    <type>MYSQL</type>
     <access>Native</access>
     <database>covid_grupo_5</database>
-    <port>5432</port>
+    <port>3306</port>
     <username>electiva_5</username>
     <password>Encrypted 2be98afc86aa7f2e4ef56a27d8ad897d2</password>
     <servername/>
@@ -514,7 +514,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
+        <attribute>3306</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -523,6 +523,10 @@
       <attribute>
         <code>QUOTE_ALL_FIELDS</code>
         <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
       </attribute>
       <attribute>
         <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
@@ -544,6 +548,11 @@
       <to>Insertar casos Alemania</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Insertar casos Alemania</from>
+      <to>Dummy (do nothing)</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Insertar casos Alemania</name>
@@ -557,7 +566,7 @@
       <schema_name/>
     </partitioning>
     <connection>China</connection>
-    <schema>public</schema>
+    <schema>covid_grupo_5</schema>
     <table>cases</table>
     <commit>1000</commit>
     <truncate>N</truncate>
@@ -583,12 +592,12 @@
         <stream_name>quantity</stream_name>
       </field>
       <field>
-        <column_name>fk_place</column_name>
-        <stream_name>fk_place</stream_name>
-      </field>
-      <field>
         <column_name>fk_type</column_name>
         <stream_name>fk_type</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
       </field>
     </fields>
     <attributes/>
@@ -755,10 +764,35 @@
       <draw>Y</draw>
     </GUI>
   </step>
+  <step>
+    <name>Dummy (do nothing)</name>
+    <type>Dummy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>464</xloc>
+      <yloc>64</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step_error_handling>
     <error>
       <source_step>Insertar casos Alemania</source_step>
-      <target_step>Update</target_step>
+      <target_step>Dummy (do nothing)</target_step>
       <is_enabled>Y</is_enabled>
       <nr_valuename/>
       <descriptions_valuename/>

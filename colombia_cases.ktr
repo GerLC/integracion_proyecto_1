@@ -550,6 +550,11 @@
     <hop>
       <from>Insertar casos Colombia</from>
       <to>Update</to>
+      <enabled>N</enabled>
+    </hop>
+    <hop>
+      <from>Insertar casos Colombia</from>
+      <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -557,7 +562,7 @@
     <name>Insertar casos Colombia</name>
     <type>TableOutput</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -591,12 +596,12 @@
         <stream_name>quantity</stream_name>
       </field>
       <field>
-        <column_name>fk_place</column_name>
-        <stream_name>fk_place</stream_name>
-      </field>
-      <field>
         <column_name>fk_type</column_name>
         <stream_name>fk_type</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>fk_place</stream_name>
       </field>
     </fields>
     <attributes/>
@@ -838,10 +843,35 @@
       <draw>Y</draw>
     </GUI>
   </step>
+  <step>
+    <name>Dummy (do nothing)</name>
+    <type>Dummy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>544</xloc>
+      <yloc>192</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step_error_handling>
     <error>
       <source_step>Insertar casos Colombia</source_step>
-      <target_step>Update</target_step>
+      <target_step>Dummy (do nothing)</target_step>
       <is_enabled>Y</is_enabled>
       <nr_valuename/>
       <descriptions_valuename/>

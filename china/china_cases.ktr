@@ -499,7 +499,7 @@
     </hop>
     <hop>
       <from>Insertar casos China</from>
-      <to>Update</to>
+      <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -541,12 +541,12 @@
         <stream_name>quantity</stream_name>
       </field>
       <field>
-        <column_name>fk_place</column_name>
-        <stream_name>id</stream_name>
-      </field>
-      <field>
         <column_name>fk_type</column_name>
         <stream_name>fk_type</stream_name>
+      </field>
+      <field>
+        <column_name>fk_place</column_name>
+        <stream_name>id</stream_name>
       </field>
     </fields>
     <attributes/>
@@ -774,8 +774,8 @@
     </GUI>
   </step>
   <step>
-    <name>Update</name>
-    <type>Update</type>
+    <name>Dummy (do nothing)</name>
+    <type>Dummy</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -784,56 +784,6 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <connection>China</connection>
-    <skip_lookup>N</skip_lookup>
-    <commit>100</commit>
-    <use_batch>Y</use_batch>
-    <error_ignored>N</error_ignored>
-    <ignore_flag_field/>
-    <lookup>
-      <schema>covid_grupo_5</schema>
-      <table>cases</table>
-      <key>
-        <name>quantity</name>
-        <field>quantity</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>date</name>
-        <field>date</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>fk_place</name>
-        <field>fk_place</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>fk_type</name>
-        <field>fk_type</field>
-        <condition>=</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>quantity</name>
-        <rename>quantity</rename>
-      </value>
-      <value>
-        <name>date</name>
-        <rename>date</rename>
-      </value>
-      <value>
-        <name>fk_place</name>
-        <rename>fk_place</rename>
-      </value>
-      <value>
-        <name>fk_type</name>
-        <rename>fk_type</rename>
-      </value>
-    </lookup>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -851,7 +801,7 @@
   <step_error_handling>
     <error>
       <source_step>Insertar casos China</source_step>
-      <target_step>Update</target_step>
+      <target_step>Dummy (do nothing)</target_step>
       <is_enabled>Y</is_enabled>
       <nr_valuename/>
       <descriptions_valuename/>
