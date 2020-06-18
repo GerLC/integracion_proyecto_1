@@ -1000,7 +1000,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable Colombia</name>
+      <name>Fallo Conexion Colombia</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1022,7 +1022,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable Brazil</name>
+      <name>Fallo Conexion Brazil</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1044,7 +1044,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable Alemania</name>
+      <name>Fallo Conexion Alemania</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1066,7 +1066,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable China</name>
+      <name>Fallo Conexion China</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1088,7 +1088,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable Corea del Sur</name>
+      <name>Fallo Conexion Corea del Sur</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1110,7 +1110,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable Espana</name>
+      <name>Fallo Conexion Espana</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1132,7 +1132,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable Italia</name>
+      <name>Fallo Conexion Italia</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1154,7 +1154,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable Mexico</name>
+      <name>Fallo Conexion Mexico</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1176,7 +1176,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable UK</name>
+      <name>Fallo Conexion UK</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1198,7 +1198,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Variable USA</name>
+      <name>Fallo Conexion USA</name>
       <description/>
       <type>SET_VARIABLES</type>
       <attributes/>
@@ -1225,13 +1225,13 @@
       <type>WRITE_TO_LOG</type>
       <attributes/>
       <logmessage>ERROR. No se pudo establecer la conexión con la base de datos de ${pais}</logmessage>
-      <loglevel>Minimal</loglevel>
+      <loglevel>Basic</loglevel>
       <logsubject>Error de conexión con: ${pais}</logsubject>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>832</xloc>
-      <yloc>448</yloc>
+      <yloc>464</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1660,15 +1660,235 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1008</xloc>
-      <yloc>480</yloc>
+      <xloc>832</xloc>
+      <yloc>608</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion China Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>CHINA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>912</xloc>
+      <yloc>112</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name> Conexion Alemania Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>ALEMANIA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>320</xloc>
+      <yloc>432</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion Brazil Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>BRAZIL</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>432</xloc>
+      <yloc>496</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion Colombia Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>COLOMBIA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>616</xloc>
+      <yloc>565</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion Corea del Sur Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>COREA DEL SUR</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>960</xloc>
+      <yloc>560</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion Espana Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>ESPAÑA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1088</xloc>
+      <yloc>528</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion Italia Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>ITALIA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1216</xloc>
+      <yloc>464</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion Mexico Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>MÉXICO</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1344</xloc>
+      <yloc>416</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name> Conexion UK Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>UK</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1499</xloc>
+      <yloc>471</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Conexion USA Exitosa</name>
+      <description/>
+      <type>SET_VARIABLES</type>
+      <attributes/>
+      <replacevars>Y</replacevars>
+      <filename/>
+      <file_variable_type>JVM</file_variable_type>
+      <fields>
+        <field>
+          <variable_name>pais</variable_name>
+          <variable_value>USA</variable_value>
+          <variable_type>JVM</variable_type>
+        </field>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1632</xloc>
+      <yloc>416</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
   <hops>
     <hop>
       <from>Conexión Colombia</from>
-      <to>Variable Colombia</to>
+      <to>Fallo Conexion Colombia</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1677,7 +1897,7 @@
     </hop>
     <hop>
       <from>Conexión China</from>
-      <to>Variable China</to>
+      <to>Fallo Conexion China</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1686,7 +1906,7 @@
     </hop>
     <hop>
       <from>Conexión Alemania</from>
-      <to>Variable Alemania</to>
+      <to>Fallo Conexion Alemania</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1695,7 +1915,7 @@
     </hop>
     <hop>
       <from>Conexión Brazil</from>
-      <to>Variable Brazil</to>
+      <to>Fallo Conexion Brazil</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1704,7 +1924,7 @@
     </hop>
     <hop>
       <from>Conexión Corea Sur</from>
-      <to>Variable Corea del Sur</to>
+      <to>Fallo Conexion Corea del Sur</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1713,7 +1933,7 @@
     </hop>
     <hop>
       <from>Conexión Espana</from>
-      <to>Variable Espana</to>
+      <to>Fallo Conexion Espana</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1722,7 +1942,7 @@
     </hop>
     <hop>
       <from>Conexión Italia</from>
-      <to>Variable Italia</to>
+      <to>Fallo Conexion Italia</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1731,7 +1951,7 @@
     </hop>
     <hop>
       <from>Conexión México</from>
-      <to>Variable Mexico</to>
+      <to>Fallo Conexion Mexico</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1740,7 +1960,7 @@
     </hop>
     <hop>
       <from>Conexión UK</from>
-      <to>Variable UK</to>
+      <to>Fallo Conexion UK</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1749,7 +1969,7 @@
     </hop>
     <hop>
       <from>Conexión USA</from>
-      <to>Variable USA</to>
+      <to>Fallo Conexion USA</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
@@ -1757,7 +1977,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable Alemania</from>
+      <from>Fallo Conexion Alemania</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1766,7 +1986,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable China</from>
+      <from>Fallo Conexion China</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1775,7 +1995,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable USA</from>
+      <from>Fallo Conexion USA</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1784,7 +2004,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable Brazil</from>
+      <from>Fallo Conexion Brazil</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1793,7 +2013,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable Colombia</from>
+      <from>Fallo Conexion Colombia</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1802,7 +2022,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable Corea del Sur</from>
+      <from>Fallo Conexion Corea del Sur</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1811,7 +2031,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable Espana</from>
+      <from>Fallo Conexion Espana</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1820,7 +2040,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable Italia</from>
+      <from>Fallo Conexion Italia</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1829,7 +2049,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable Mexico</from>
+      <from>Fallo Conexion Mexico</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -1838,7 +2058,7 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Variable UK</from>
+      <from>Fallo Conexion UK</from>
       <to>Mensaje de Error</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
@@ -2034,6 +2254,186 @@
       <enabled>Y</enabled>
       <evaluation>N</evaluation>
       <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>China</from>
+      <to>Conexion China Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion China Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Alemania</from>
+      <to> Conexion Alemania Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from> Conexion Alemania Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Brazil</from>
+      <to>Conexion Brazil Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion Brazil Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Colombia</from>
+      <to>Conexion Colombia Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion Colombia Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Corea del Sur</from>
+      <to>Conexion Corea del Sur Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion Corea del Sur Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Espana</from>
+      <to>Conexion Espana Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion Espana Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos Italia</from>
+      <to>Conexion Italia Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion Italia Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos México</from>
+      <to>Conexion Mexico Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion Mexico Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos UK</from>
+      <to> Conexion UK Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from> Conexion UK Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Datos USA</from>
+      <to>Conexion USA Exitosa</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Conexion USA Exitosa</from>
+      <to>Mensaje de Error</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
     </hop>
   </hops>
   <notepads>
