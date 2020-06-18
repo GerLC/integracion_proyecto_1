@@ -14,7 +14,7 @@
     </parameters>
   <connection>
     <name>Alemania</name>
-    <server>186.93.33.243</server>
+    <server>germanydata.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>covid19</database>
@@ -68,7 +68,7 @@
     <server>grupo2brasil.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
-    <database>pentaho</database>
+    <database>electiva</database>
     <port>5432</port>
     <username>publico</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce218cc1fb8f</password>
@@ -273,11 +273,11 @@
   </connection>
   <connection>
     <name>Espana</name>
-    <server>190.36.226.142</server>
+    <server>grupo3.ddns.net</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>etlgrupo3</database>
-    <port>5432</port>
+    <port>63333</port>
     <username>grupo3</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79a962cb82a089</password>
     <servername/>
@@ -298,7 +298,7 @@
       </attribute>
       <attribute>
         <code>PORT_NUMBER</code>
-        <attribute>5432</attribute>
+        <attribute>63333</attribute>
       </attribute>
       <attribute>
         <code>PRESERVE_RESERVED_WORD_CASE</code>
@@ -1225,7 +1225,7 @@
       <type>WRITE_TO_LOG</type>
       <attributes/>
       <logmessage>ERROR. No se pudo establecer la conexión con la base de datos de ${pais}</logmessage>
-      <loglevel>Minimal</loglevel>
+      <loglevel>Error</loglevel>
       <logsubject>Error de conexión con: ${pais}</logsubject>
       <parallel>N</parallel>
       <draw>Y</draw>
@@ -1627,7 +1627,7 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Transformation</name>
+      <name>Logs</name>
       <description/>
       <type>TRANS</type>
       <attributes/>
@@ -1660,8 +1660,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1008</xloc>
-      <yloc>480</yloc>
+      <xloc>992</xloc>
+      <yloc>528</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -2028,7 +2028,7 @@
     </hop>
     <hop>
       <from>Mensaje de Error</from>
-      <to>Transformation</to>
+      <to>Logs</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
